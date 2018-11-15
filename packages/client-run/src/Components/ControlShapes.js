@@ -8,7 +8,7 @@ const ControlShapes = props => (
     {
       props.options.map(opt => (
         <DisplayShape
-          typeDisplay="controlDisplay"
+          controlled
           selected={opt === props.value}
           key={opt}
           value={opt}

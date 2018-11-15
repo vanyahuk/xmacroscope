@@ -5,7 +5,7 @@ import { ShapeWrapper, ShapeWrapperControl } from '../Primatives/ControlPrimativ
 class DisplayShape extends PureComponent {
   render() {
     const {
-      color, shape, shapeTransform, margin, width, typeDisplay,
+      color, shape, shapeTransform, margin, width, controlled,
       value, selected, updateInputValue,
     } = this.props;
     const formatShape = shape === 'triangle-up' ? 'triangle' : shape;
@@ -22,7 +22,7 @@ class DisplayShape extends PureComponent {
     return (
       <div className="d-flex">
         {
-          typeDisplay === 'controlDisplay'
+          controlled
             ? (
               <ShapeWrapperControl
                 selected={selected}
@@ -86,7 +86,7 @@ DisplayShape.propTypes = {
   updateInputValue: PropTypes.func,
   value: PropTypes.string,
   selected: PropTypes.bool,
-  typeDisplay: PropTypes.string.isRequired,
+  controlled: PropTypes.bool,
 };
 
 DisplayShape.defaultProps = {
@@ -94,6 +94,7 @@ DisplayShape.defaultProps = {
   },
   value: '',
   selected: false,
+  controlled: false,
 };
 
 export default DisplayShape;
