@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ButtonGroup } from 'reactstrap';
-import { StyledBTN } from '../Primatives/BasePrimatives';
+import { StyledBTN } from '../Primitives/BasePrimitives';
 
 const ControlGroupBtns = props => (
   <ButtonGroup size="lg pb-3">

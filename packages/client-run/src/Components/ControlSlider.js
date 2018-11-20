@@ -3,7 +3,7 @@ import { Col, Row } from 'reactstrap';
 import PropTypes from 'prop-types';
 import Slider, { createSliderWithTooltip } from 'rc-slider';
 import 'rc-slider/assets/index.css';
-import { PlaceHolder } from '../Primatives/ControlPrimatives';
+import { PlaceHolder } from '../Primitives/ControlPrimitives';
 
 
 const SliderWithTooltip = createSliderWithTooltip(Slider);

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactHowler from 'react-howler';
-import TimerWrapper from '../Primatives/TimerPrimatives';
+import TimerWrapper from '../Primitives/TimerPrimitives';
 import CountDown from '../Media/countDown.wav';
 
 class Timer extends React.Component {

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import DisplayShape from './DisplayShape';
-import { ControlShapesContainer } from '../Primatives/ControlPrimatives';
+import { ControlShapesContainer } from '../Primitives/ControlPrimitives';
 
 const ControlShapes = props => (
   <ControlShapesContainer>

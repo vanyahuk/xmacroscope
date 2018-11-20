@@ -4,7 +4,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Row, Col } from 'reactstrap';
-import { ErrorWrapper } from '../Primatives/BasePrimatives';
+import { ErrorWrapper } from '../Primitives/BasePrimitives';
 
 const ErrorFeedBack = ({
   name, disabled, errors, touched,

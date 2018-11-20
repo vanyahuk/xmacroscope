@@ -7,7 +7,7 @@ import { Row, Col } from 'reactstrap';
 import gql from 'graphql-tag';
 import RunnerTimer from './RunnerTimer';
 import RunningTimerTimeout from './RunningTimerTimeout';
-import { BigHeader } from '../Primatives/BasePrimatives';
+import { BigHeader } from '../Primitives/BasePrimitives';
 
 const GET_RUN_TIMEOUT = gql`
   query GetRunTimeout($location: String!) {

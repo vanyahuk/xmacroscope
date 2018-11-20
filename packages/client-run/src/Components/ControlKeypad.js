@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Col } from 'reactstrap';
 import PropTypes from 'prop-types';
-import { ControlKeypadContainer, KeyInput, PlaceHolder } from '../Primatives/ControlPrimatives';
+import { ControlKeypadContainer, KeyInput, PlaceHolder } from '../Primitives/ControlPrimitives';
 
 const zipCodeUpdate = (zipCode) => {
   let zipCodeFormatted = '';

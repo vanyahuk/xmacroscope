@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Button } from 'reactstrap';
-import { selected } from './BasePrimatives';
+import { selected } from './BasePrimitives';
 import { sportsYellow } from './BaseConfigsVariables';
 
 const dashedOutline = `

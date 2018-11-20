@@ -10,7 +10,7 @@ import ControlShapes from '../Components/ControlShapes';
 import ControlColors from '../Components/ControlColors';
 import ControlKeypad from '../Components/ControlKeypad';
 import ErrorFeedBack from '../Components/ErrorFeedBack';
-import { StyledButton, BaseFormHeader } from '../Primatives/BasePrimatives';
+import { StyledButton, BaseFormHeader } from '../Primitives/BasePrimitives';
 
 // Our inner form component which receives our form's state and updater methods
 // as props
